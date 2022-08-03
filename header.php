@@ -5,7 +5,7 @@
 		<meta charset='UTF-8'>
 		<meta name='viewport' content='initial-scale=1,width=device-width'>
 
-		<?php get_head(); ?>
+		<?php wp_head(); ?>
 	</head>
 	<body>
 		<header>
