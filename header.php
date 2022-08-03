@@ -11,6 +11,6 @@
 	</head>
 	<body>
 		<header>
-			<img class='profile' src='./assets/img/profile.jpg' alt='Indigo Bay Profile Picture'/>
-			<h1 class='title'><a href='https://indigobay.uk'>@indigobay</a></h1>
+			<img class='profile' src='<?php echo get_theme_mod('indigo_image'); ?>' alt='Indigo Bay Profile Picture'/>
+			<h1 class='title'><a href='<?php echo get_theme_mod('indigo_link'); ?>'><?php echo get_bloginfo('name'); ?></a></h1>
 		</header>

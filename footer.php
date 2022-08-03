@@ -1,5 +1,5 @@
 		<footer>
-			<span>Copyright &copy; Indigo Bay 2022</span>
+			<span><?php echo get_theme_mod('footer_text'); ?></span>
 		</footer>
 	</body>
 </html>
