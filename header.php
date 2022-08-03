@@ -5,9 +5,7 @@
 		<meta charset='UTF-8'>
 		<meta name='viewport' content='initial-scale=1,width=device-width'>
 
-		<title>Indigo Bay Social Tree</title>
-
-		<link rel='stylesheet' href='./assets/css/root.css'/>
+		<?php get_head(); ?>
 	</head>
 	<body>
 		<header>
