@@ -1,0 +1,30 @@
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 10vh;
+	.tree {
+		list-style-type: none;
+		padding: 0;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 5vw;
+		li {
+			padding: 10px;
+			a {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				text-decoration: none;
+				img {
+					width: 20vw;
+				}
+			}
+		}
+	}
+}

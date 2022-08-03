@@ -1,0 +1,12 @@
+@import '../colour';
+@import '../fonts';
+
+html {
+	body {
+		margin: 0;
+		background-color: $background-1;
+		@import '../header/header';
+		@import '../main/main';
+		@import '../footer/footer';
+	}
+}

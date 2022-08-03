@@ -1,0 +1,31 @@
+@font-face {
+	font-family: indigo;
+	src: url(../fonts/Indigo_Bay.ttf);
+}
+
+@font-face {
+	font-family: sathu;
+	src: url(../fonts/Sathu.ttf);
+}
+
+* {
+	color: $light;
+	font-family: indigo;
+	font-size: 16px;
+}
+
+p {
+	font-family: sathu;
+}
+
+h1, h2, h3, h4, h5, h6, label {
+	color: $font;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
